@@ -266,7 +266,7 @@ margin: 0;
    }
 
    .pagesHeader-accomodation{
-      background-image: url(images/pagesheader-accomodation.png);
+      background-image: url(/range-hotels/images/pagesheader-accomodation.png);
       background-position: center;
       background-size: cover;
       height: 15em;
