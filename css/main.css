@@ -132,7 +132,7 @@ margin: 0;
 
      .buttonBook {
       text-align: center;
-      padding: 3em;
+      padding-top: 2em;
      }
 
      .buttonBook_Header {
@@ -215,7 +215,10 @@ margin: 0;
       width: 100%;
    }
 
-   
+   .map{
+      padding-top: 2em;
+   }
+
    .footer_nav ul{
       list-style: none;
       padding: 0;
@@ -262,7 +265,25 @@ margin: 0;
       width: 10em;
    }
 
-   .pagesHeader{
+   .pagesHeader-accomodation{
+      background-image: url(images/pagesheader-accomodation.png);
+      background-position: center;
+      background-size: cover;
+      height: 15em;
+      text-align: center;
+      padding: 2em;
+   }
+
+   .pagesHeader-restaurants{
+      background-image: url(/images/Accomodation/pagesHeader\ background-image-accomodation.png);
+      background-position: center;
+      background-size: cover;
+      height: 15em;
+      text-align: center;
+      padding: 2em;
+   }
+
+   .pagesHeader-contact{
       background-image: url(/images/Accomodation/pagesHeader\ background-image-accomodation.png);
       background-position: center;
       background-size: cover;
@@ -302,6 +323,10 @@ margin: 0;
 
    .table-items{
       margin: auto;
+   }
+
+   .tableAccomodation img{
+      width: 1.7em;
    }
 
    .carousel {
