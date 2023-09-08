@@ -129,7 +129,7 @@ margin: 0;
 
    .bookingBar input {
       padding: 0.5em;
-      color: var(--primary-color);
+      color: #ccc;
       margin-top: 0.5em;
       height: 2em;
       display: flex;
@@ -142,7 +142,7 @@ margin: 0;
 
    .bookingBar select {
       padding: 0.5em;
-      color: var(--primary-color);
+      color: #ccc;
       margin-top: 0.5em;
       width: 100%;
       height: 3.2em;
