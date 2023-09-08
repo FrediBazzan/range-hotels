@@ -34,14 +34,29 @@ td {
     margin: auto;
 }
 
+.flex-box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
 .top_header{
     text-align: center;
     background-color: var(--primary-color);
+    height: 5em;
 }
 
 .top_header_logo{
-   width: 12em;
-   padding: 1em;
+   padding-top: 1em;
+}
+
+.top_header_logo img{
+   width: 11em;
+}
+
+.top_header_logo img:hover{
+   width: 11.5em;
+   transition-duration: 0.5s;
 }
 
 
@@ -54,7 +69,7 @@ margin: 0;
 
 
 .top_header_nav a{
-    color: white;
+    color: var(--cream-color);
     text-decoration: none;
     display: block;
     height: 30px;
@@ -66,85 +81,107 @@ margin: 0;
         transition-duration: 0.8s;
         }
 
-        .heroBanner_mobile img{
-   width: 100%;
-   }
+        .heroBanner{
+         height: 12em;
+         text-align: center;
+         background-image: url(../images/Hero-banner-home.png);
+         padding: 2em;
+         background-position: center;
+      }   
 
-     .heroBanner{
-        text-align: center;
-        background-color: #f6f6f6;
-        padding: 2em 0;
-     }   
+     .heroBanner-items{
+         padding-top: 1.8em;
+   
+     }
 
-     .heroBanner h1{
-        margin: 0;
-     }   
-
-     .heroBanner_icon img{
-        width: 4em;
-        text-align: center;
-        display: none;
+      .heroBanner_icon img{
+        width: 7em;
+        filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.5));
+        
      }
 
      .heroBanner_title{
-        color: var(--gold-color);
-        font-size: 1.5em;
-        padding: 0 1em;
+        color: var(--cream-color);
+        font-size: 1.3em;
+        filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.5));
+        margin: 0;
      }
 
-     .heroBanner_subtitle{
-        color: var(--paragraph-color);
-        font-size: 1em;
-        padding: 0 1em;
+     .bookingBar{
+      width: 100%;
+      height: 100%;
+      padding: 2em;
+      background-color: var(--primary-color);
+  }
+
+   .bookingBar-items{
+      color: var(--gold-color);
+      gap: 1.5em;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+   }
+
+   .bookingBar-items2{
+      display: flexbox;
+      width: 25%;
+   }
+
+   .bookingBar input {
+      padding: 0.5em;
+      color: var(--primary-color);
+      margin-top: 0.5em;
+      height: 2em;
+      display: flex;
+      justify-content: center;
+      width: 8em;
+      border: 2px solid var(--gold-color);
+      border-radius: 5px;
+
+   }
+
+   .bookingBar select {
+      padding: 0.5em;
+      color: var(--primary-color);
+      margin-top: 0.5em;
+      width: 100%;
+      height: 3.2em;
+      display: flex;
+      justify-content: center;
+      border: 2px solid var(--gold-color);
+      border-radius: 5px;
+   }
+
+   .bookingBar-button {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+
      }
 
-     .button{
-        display: inline-block;
-        padding: .9em 2em;
-        background-color: var(--primary-color);
-        text-decoration: none;
-        color: white;
-        border-radius: 50px;
-     }
-
-     .button:hover{
-        background-color: var(--gold-color);
-        transition-duration: 1s;
-     }
-
-     .button img{
-      width: 1.2em;
-      padding-right: 0.5em;
-     }
-
-     .button_gold{
-      display: inline-block;
+     .buttonGold{
       padding: 0.9em 2em;
       background-color: var(--gold-color);
       text-decoration: none;
-      color: white;
-      border-radius: 50px;
+      color: var(--cream-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 1.4em;
+      width: 10em;
+      border-radius: 5px;
+
    }
 
-   .button_gold:hover{
-      background-color: #d19e5b;
-      transition-duration: 1s;
-   }
-
-     .buttonBook {
-      text-align: center;
-      padding-top: 2em;
-     }
-
-     .buttonBook_Header {
-      padding: 1.3em 2em 0 0;
-      display: none;
-     }
-
-     .buttonBook_Header img {
+   .buttonGold img {
       width: 1.2em;
       padding-right: 0.5em;
      }
+
+   .buttonGold:hover{
+      background-color: #d19e5b;
+      transition-duration: 1s;
+   }
 
      .middle_content{
         text-align: center;
@@ -216,10 +253,6 @@ margin: 0;
       width: 100%;
    }
 
-   .map{
-      padding-top: 2em;
-   }
-
    .footer_nav ul{
       list-style: none;
       padding: 0;
@@ -230,7 +263,7 @@ margin: 0;
    .footer_nav a{
       background-color: #222d1c;
       text-align: center;
-      color: white;
+      color: var(--cream-color);
       text-decoration: none;
       display: block;
       height: 20px;
@@ -241,9 +274,6 @@ margin: 0;
       background-color: color-mix(in srgb, var(--gold-color), white 10%);
       transition-duration: 0.8s;
   }
-
-
-
 
    .footer {
       background-color: var(--primary-color);
@@ -257,9 +287,8 @@ margin: 0;
    }
 
    .footer_text-2{
-      text-align: center;
       font-size: 0.8em;
-      color: white;
+      color: var(--cream-color);
    }
 
    .footer_img {
@@ -298,7 +327,7 @@ margin: 0;
    }
 
    .pagesHeader_content h1, h2, h3{
-      color: white;
+      color: var(--cream-color);
       font-weight: bold;
       font-size: 2em;
       padding: 0;
@@ -580,7 +609,7 @@ margin: 0;
             }
 
             .top_header_nav a{
-                color: white;
+                color: var(--cream-color);
                 padding-top: 2.5em;
                 height: 2.5em;
             }
@@ -592,33 +621,24 @@ margin: 0;
             .top_header_logo{
                 padding: 1.2em 0 0 2em;
             }
-            .heroBanner_mobile img{
-               display: none;
+        
+            .heroBanner{
+               height: 20em;
             }
 
-            .heroBanner{
-                text-align: center;
-                background-image: url(../images/Hero-banner-home.png);
-                padding: 2em 0;
-                background-position: center;
-             }   
-        
-        
-             .heroBanner_icon img{
-                display: inline-block;
+            .heroBanner-items{
+               padding-top: 5em;
+            }
+             
+            .heroBanner_icon img{
+                width: 10em;
+
              }
         
              .heroBanner_title{
-                color: white;
-                font-size: 1.5em;
-                padding: 0.5em 1em;
+                font-size: 1.8em;
              }
-        
-             .heroBanner_subtitle{
-                color: white;
-                font-size: 1em;
-                padding: 1em 1em;
-             }
+
 
              .col-md-6 {
                 width: calc(50% - 1.5rem);
@@ -647,7 +667,7 @@ margin: 0;
       }
 
       .desktop{
-         display: initial;
+         display: flex;
       }
    
       .mobile{
@@ -667,14 +687,15 @@ margin: 0;
     .heroBanner{
         background-image: url(../images/Hero-banner-home.png);
         background-position:center-top;
-        background-color: var(--primary-color);
         background-repeat: no-repeat;
         background-size: cover;
         height: 25em;
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+    }
 
+    .heroBanner-items{
+      padding-top: 7em;
     }
 
     .top_header_nav a:hover{
@@ -686,30 +707,6 @@ margin: 0;
     .buttonBook_Header {
       display: inline-block;
     }
-
-    .heroBanner{
-        text-align: center;
-        background-color: var(--primary-color);
-        padding: 2em 0;
-     }   
-
-
-     .heroBanner_icon img{
-        display: inline-block;
-        padding-bottom: 1em;
-     }
-
-     .heroBanner_title{
-        color: white;
-        font-size: 1.5em;
-        padding: 0.5em 1em;
-     }
-
-     .heroBanner_subtitle{
-        color: white;
-        font-size: 1em;
-        padding: 1em 1em;
-     }
 
      .col-lg-3 {
          width: calc(25% - 1.5rem);
