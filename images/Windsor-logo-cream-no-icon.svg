@@ -1,0 +1,39 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 474 142" width="474" height="142">
+	<title>Windsor-logo</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: none;stroke: #231f20;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6 } 
+		.s1 { fill: #231f20 } 
+		.t2 { font-size: 14px;fill: #222d1c;font-weight: 700;font-family: "Quicksand-Bold", "Quicksand" } 
+		.t3 { font-size: 33px;fill: #af7f40;font-weight: 700;font-family: "Quicksand-Bold", "Quicksand" } 
+	</style>
+	<filter id="f0">
+		<feFlood flood-color="#f4efe6" flood-opacity="1" />
+		<feBlend mode="normal" in2="SourceGraphic"/>
+		<feComposite in2="SourceAlpha" operator="in" />
+	</filter>
+	<g id="Logo Creme" filter="url(#f0)">
+		<filter id="f1">
+			<feFlood flood-color="#222d1c" flood-opacity="1" />
+			<feBlend mode="normal" in2="SourceGraphic"/>
+			<feComposite in2="SourceAlpha" operator="in" />
+		</filter>
+		<g id="OBJECTS" filter="url(#f1)">
+			<path id="&lt;Path&gt;" class="s0" d="m44.5 85.2h376.8"/>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s1" d="m44.5 29.6l4.4 8 8 4.4-8 4.3-4.4 8.1-4.4-8.1-8-4.3 8-4.4z"/>
+				<path id="&lt;Path&gt;" class="s1" d="m417.3 29.6l4.3 8 8.1 4.4-8.1 4.3-4.3 8.1-4.4-8.1-8.1-4.3 8.1-4.4z"/>
+			</g>
+		</g>
+		<g id="TEXT">
+			<text id="RANGE HOTELS" style="transform: matrix(2,0,0,2,235.875,125.272)" >
+				<tspan x="-46" y="0" class="t2" dx="0" >R</tspan><tspan  y="0" class="t2" dx="0" >A</tspan><tspan  y="0" class="t2" dx="0" >N</tspan><tspan  y="0" class="t2" dx="0" >G</tspan><tspan  y="0" class="t2" dx="0" >E</tspan><tspan  y="0" class="t2" dx="0" > </tspan><tspan  y="0" class="t2" dx="0" >H</tspan><tspan  y="0" class="t2" dx="0" >O</tspan><tspan  y="0" class="t2" dx="0" >T</tspan><tspan  y="0" class="t2" dx="0" >E</tspan><tspan  y="0" class="t2" dx="0" >L</tspan><tspan  y="0" class="t2" dx="0 -1" >S
+</tspan>
+			</text>
+			<text id="WINDSOR" style="transform: matrix(2,0,0,2,236.24,67.795)" >
+				<tspan x="-78.8" y="0" class="t3">W</tspan><tspan  y="0" class="t3">I</tspan><tspan  y="0" class="t3">N</tspan><tspan  y="0" class="t3">D</tspan><tspan  y="0" class="t3">S</tspan><tspan  y="0" class="t3">O</tspan><tspan  y="0" class="t3">R
+</tspan>
+			</text>
+		</g>
+	</g>
+</svg>
